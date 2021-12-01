@@ -6,7 +6,8 @@
 ### WaveShare UPS-HAT script    
 The code is a backup of the original script. If the script is removed from the original page.      
 ```
-sudo apt-get py3-pip install smbus2
+sudo apt-get install python3-pip 
+sudo pip3 install smbus2
 wget https://raw.githubusercontent.com/LocalghostFI/Raspberry-Pi/main/WaveShare-UPSHAT-IAN219.py
 python3 WaveShare-UPSHAT-IAN219.py    
 ```    
